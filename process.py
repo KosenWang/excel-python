@@ -71,7 +71,10 @@ def process(sheet_name:str) -> None:
         export_excel_sheet(output, method+'_verify')
     print('process finished')
 
+def hello(name:str):
+    print(f'hello {name}')
 
 
 if __name__ == "__main__":
-    process(SHEET_NAME)
+    # process(SHEET_NAME)
+    hello('123')
